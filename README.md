@@ -1,8 +1,10 @@
 # scoop-bucket
-Custom bucket for scoop( https://scoop.sh/ ).
+Scoop bucket for Japanese.
+see https://scoop.sh/.
 
 
 ## Add bucket
+Name `mybucket` is able to modify as you like.
 
 ```
 scoop bucket add mybucket https://github.com/toruuetani/scoop-bucket.git
