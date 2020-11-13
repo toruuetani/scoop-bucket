@@ -16,5 +16,8 @@
   "bin": "RLogin.exe",
   "shortcuts": [
       [ "RLogin.exe", "RLogin" ]
-  ]
+  ],
+  "checkver": {
+    "github": "https://github.com/kmiya-culti/RLogin/releases/latest"
+  }
 }
