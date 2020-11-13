@@ -21,7 +21,8 @@
   "bin": "WinMergeU.exe",
   "shortcuts": [
       [
-          "WinMergeU.exe"
+          "WinMergeU.exe",
+          "WinMerge"
       ]
   ]
 }
