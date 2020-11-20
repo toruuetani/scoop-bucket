@@ -1,6 +1,6 @@
 {
   "version": "0.7.0",
-  "description": "ECS-CLI",
+  "description": "AWS Copilot",
   "homepage": "https://github.com/aws/copilot-cli",
   "license": "Apache 2.0",
   "architecture": {
