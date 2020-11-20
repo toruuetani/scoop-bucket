@@ -18,6 +18,6 @@
       [ "RLogin.exe", "RLogin" ]
   ],
   "checkver": {
-    "github": "https://github.com/kmiya-culti/RLogin/releases/latest"
+    "github": "https://github.com/kmiya-culti/RLogin"
   }
 }
