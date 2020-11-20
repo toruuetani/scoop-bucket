@@ -1,0 +1,16 @@
+{
+  "version": "0.7.0",
+  "description": "ECS-CLI",
+  "homepage": "https://github.com/aws/copilot-cli",
+  "license": "Apache 2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/aws/copilot-cli/releases/latest/download/copilot-windows.exe",
+      "hash": "cd1924f518eccc7cb4d957fc5b9be1587d6a12292b4d1e4e39cc29fe0612e15f"
+    }
+  },
+  "bin": [
+    ["copilot-windows.exe", "copilot"]
+  ],
+  "checkver": "github"
+}
