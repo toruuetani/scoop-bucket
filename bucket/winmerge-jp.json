@@ -4,25 +4,35 @@
   "homepage": "https://winmergejp.bitbucket.io/",
   "license": "GPL-2.0-only",
   "architecture": {
-      "32bit": {
-        "url": "https://dotsrc.dl.osdn.net/osdn/winmerge-jp/73849/winmerge-2.16.8-jp-5-exe.zip",
-        "hash": "cc6cb001101c8a089bd6eb50c8211aac01c6449a2833ea3ca390c22aabaee161"
+    "32bit": {
+      "url": "https://dotsrc.dl.osdn.net/osdn/winmerge-jp/73849/winmerge-2.16.8-jp-5-exe.zip",
+      "hash": "cc6cb001101c8a089bd6eb50c8211aac01c6449a2833ea3ca390c22aabaee161"
     },
-      "64bit": {
-          "url": "https://dotsrc.dl.osdn.net/osdn/winmerge-jp/73849/winmerge-2.16.8-jp-5-x64-exe.zip",
-          "hash": "276a58a9b4b9f331c35e9511ef75cfb0897083432cdb833876788008575143fa"
-      }
+    "64bit": {
+      "url": "https://dotsrc.dl.osdn.net/osdn/winmerge-jp/73849/winmerge-2.16.8-jp-5-x64-exe.zip",
+      "hash": "276a58a9b4b9f331c35e9511ef75cfb0897083432cdb833876788008575143fa"
+    }
   },
   "extract_dir": "WinMerge",
   "checkver": {
       "re": "WinMerge-(?<v1>[\\d.]+)-jp-(?<v2>[\\d]+)-Setup.exe",
       "replace": "${v1}.${v2}"
   },
+  "autoupdate": {
+    "architecture": {
+      "32bit": {
+        "url": "https://dotsrc.dl.osdn.net/osdn/winmerge-jp/73849/winmerge-$v1-jp-$v2-exe.zip"
+      },
+      "64bit": {
+        "url": "https://dotsrc.dl.osdn.net/osdn/winmerge-jp/73849/winmerge-$v1-jp-$v2-x64-exe.zip"
+      }
+    }
+  },
   "bin": "WinMergeU.exe",
   "shortcuts": [
-      [
-          "WinMergeU.exe",
-          "WinMerge"
-      ]
+    [
+      "WinMergeU.exe",
+      "WinMerge"
+    ]
   ]
 }
