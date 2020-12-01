@@ -1,16 +1,26 @@
 {
-  "version": "1.20.0",
-  "description": "ECS-CLI",
-  "homepage": "https://github.com/aws/amazon-ecs-cli",
-  "license": "Apache 2.0",
-  "architecture": {
-    "64bit": {
-      "url": "https://amazon-ecs-cli.s3.amazonaws.com/ecs-cli-windows-amd64-latest.exe",
-      "hash": "72c8a59748518dc8b115ae8e84127ada26888f18bdf7d52266249b6392833c21"
+    "version": "1.20.0",
+    "description": "ECS-CLI",
+    "homepage": "https://github.com/aws/amazon-ecs-cli",
+    "license": "Apache 2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://amazon-ecs-cli.s3.amazonaws.com/ecs-cli-windows-amd64-latest.exe",
+            "hash": "72c8a59748518dc8b115ae8e84127ada26888f18bdf7d52266249b6392833c21"
+        }
+    },
+    "bin": [
+        [
+            "ecs-cli-windows-amd64-latest.exe",
+            "ecs-cli"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://amazon-ecs-cli.s3.amazonaws.com/ecs-cli-windows-amd64-latest.exe"
+            }
+        }
     }
-  },
-  "bin": [
-    ["ecs-cli-windows-amd64-latest.exe", "ecs-cli"]
-  ],
-  "checkver": "github"
 }
