@@ -1,16 +1,16 @@
 {
-    "version": "2.16.8.8",
+    "version": "2.16.8.11",
     "description": "WinMerge-jp",
     "homepage": "https://winmergejp.bitbucket.io/",
     "license": "GPL-2.0-only",
     "architecture": {
         "32bit": {
-            "url": "https://osdn.net/dl/winmerge-jp/winmerge-2.16.8-jp-8-exe.zip",
-            "hash": "79b204a052f6ec13da1c62afe5c76240d9a481b80438f0a163a99f18b87757ef"
+            "url": "https://osdn.net/dl/winmerge-jp/winmerge-2.16.8-jp-11-exe.zip",
+            "hash": "4ffc23f01faaea57fe87f20fc2b9484d6287fb493b438d6c487e3dc39ea44233"
         },
         "64bit": {
-            "url": "https://osdn.net/dl/winmerge-jp/winmerge-2.16.8-jp-8-x64-exe.zip",
-            "hash": "6cc05c76bca42bad2fc2408c25bd7bbb3595b2f06fe15ec9f738ef2653310dc7"
+            "url": "https://osdn.net/dl/winmerge-jp/winmerge-2.16.8-jp-11-x64-exe.zip",
+            "hash": "788660db232029da2785571b81b6c8f207ebb93c20b109e8814b2820dfb81313"
         }
     },
     "extract_dir": "WinMerge",
