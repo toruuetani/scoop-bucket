@@ -1,16 +1,16 @@
 {
-    "version": "2.15.4",
+    "version": "2.15.5",
     "description": "A5:SQL Mk-2",
     "homepage": "https://a5m2.mmatsubara.com/",
     "license": "https://a5m2.mmatsubara.com/document/license.txt",
     "architecture": {
         "32bit": {
-            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.15.4_x86.zip",
-            "hash": "d2c70b19de0d7125c7233ea84c39adc2236dab5a3994656b90ef4709860c1c8d"
+            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.15.5_x86.zip",
+            "hash": "5b03f399c435de97185d2832b7c79415a7033acf906575bc61cc7fc7866ba8ce"
         },
         "64bit": {
-            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.15.4_x64.zip",
-            "hash": "0998df2a875c143a55866d3ab923d28747b18dabfe1b1405ed13828b14834879"
+            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.15.5_x64.zip",
+            "hash": "3a288f53fcdf7dd9beafd76c6d73d69b0a4a2ff799e87b07f32cdd804d744c08"
         }
     },
     "checkver": {
