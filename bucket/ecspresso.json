@@ -11,7 +11,7 @@
     },
     "bin": [
         [
-            "ecspresso-v$version-windows-amd64.exe",
+            "ecspresso-v1.5.6-windows-amd64.exe",
             "ecspresso"
         ]
     ],
