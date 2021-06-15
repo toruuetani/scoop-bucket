@@ -1,12 +1,12 @@
 {
-    "version": "1.6.0",
+    "version": "1.7.1",
     "description": "AWS Copilot",
     "homepage": "https://github.com/aws/copilot-cli",
     "license": "Apache 2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aws/copilot-cli/releases/download/v1.6.0/copilot-windows.exe",
-            "hash": "b40c85cfb1991288d107f20e58d31f939e96d1d1d927d9c8a3de067bc3ae0b64"
+            "url": "https://github.com/aws/copilot-cli/releases/download/v1.7.1/copilot-windows.exe",
+            "hash": "5d1d10e4edc101932f059165e32eb6665fd2f6329dccd9dce55bd05cef6ba932"
         }
     },
     "bin": [
