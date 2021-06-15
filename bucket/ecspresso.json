@@ -1,12 +1,12 @@
 {
-    "version": "1.5.4",
+    "version": "1.5.6",
     "description": "ecspresso",
     "homepage": "https://github.com/kayac/ecspresso",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kayac/ecspresso/releases/download/v1.5.4/ecspresso-v1.5.4-windows-amd64.exe",
-            "hash": "6870f15fc97554e56be3b88c3b028f6a233695d4ba8eeb0a3800961d1017c0df"
+            "url": "https://github.com/kayac/ecspresso/releases/download/v1.5.6/ecspresso-v1.5.6-windows-amd64.exe",
+            "hash": "7c39671adfa214979d4dec80b173dba1a3445c243955921f8ad158a1feabafb3"
         }
     },
     "bin": [
