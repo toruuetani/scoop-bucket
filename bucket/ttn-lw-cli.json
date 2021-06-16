@@ -1,0 +1,36 @@
+{
+    "version": "3.13.1",
+    "description": "ttn-lw-cli",
+    "homepage": "https://github.com/TheThingsNetwork/lorawan-stack/",
+    "license": "MIT",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/TheThingsNetwork/lorawan-stack/releases/download/v3.13.1/lorawan-stack-cli_3.13.1_windows_386.zip",
+            "hash": "8e992ce41529aec8263128ccf0f0b43675c640643576dd0fdf43ecf728b17efc"
+        },
+        "64bit": {
+            "url": "https://github.com/TheThingsNetwork/lorawan-stack/releases/download/v3.13.1/lorawan-stack-cli_3.13.1_windows_amd64.zip",
+            "hash": "deec0aef7de0b494d0d562c4a2406c4eadec151258b849e2b04aa35a6bc4fb47"
+        }
+    },
+    "bin": "ttn-lw-cli.exe",
+    "shortcuts": [
+        [
+            "ttn-lw-cli.exe",
+            "ttn-lw-cli"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/TheThingsNetwork/lorawan-stack/"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/TheThingsNetwork/lorawan-stack/releases/download/v$version/lorawan-stack-cli_$version_windows_386.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/TheThingsNetwork/lorawan-stack/releases/download/v$version/lorawan-stack-cli_$version_windows_amd64.zip"
+            }
+        }
+    }
+}
