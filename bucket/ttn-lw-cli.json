@@ -2,7 +2,7 @@
     "version": "3.13.1",
     "description": "ttn-lw-cli",
     "homepage": "https://github.com/TheThingsNetwork/lorawan-stack/",
-    "license": "MIT",
+    "license": " Apache-2.0",
     "architecture": {
         "32bit": {
             "url": "https://github.com/TheThingsNetwork/lorawan-stack/releases/download/v3.13.1/lorawan-stack-cli_3.13.1_windows_386.zip",
