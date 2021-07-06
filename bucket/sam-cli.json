@@ -11,7 +11,7 @@
     },
     "bin": [
         [
-            "sam.cmd",
+            "Amazon\\AWSSAMCLI\\bin\\sam.cmd",
             "sam"
         ]
     ],
