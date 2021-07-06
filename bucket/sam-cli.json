@@ -1,0 +1,26 @@
+{
+    "version": "1.25.0",
+    "description": "SAM-CLI",
+    "homepage": "https://github.com/aws/aws-sam-cli/",
+    "license": "Apache 2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/aws/aws-sam-cli/releases/download/v1.25.0/AWS_SAM_CLI_64_PY3.msi",
+            "hash": "1081540d25d127a8a8be9be8c10b7e353b8ce4c1b39a5720102a146d3622e370"
+        }
+    },
+    "bin": [
+        [
+            "sam.cmd",
+            "sam"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aws/aws-sam-cli/releases/download/v$version/AWS_SAM_CLI_64_PY3.msi"
+            }
+        }
+    }
+}
