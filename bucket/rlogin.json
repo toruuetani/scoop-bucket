@@ -21,15 +21,16 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/kmiya-culti/RLogin"
+        "github": "https://github.com/kmiya-culti/RLogin",
+        "re": "RLogin-(?<version>\\d+.\\d+.\\d+)[\\s\\S]+files\\/(?<x86url>\\d+)\\/rlogin_x32.zip[\\s\\S]+files\\/(?<x64url>\\d+)\\/rlogin_x64.zip"
     },
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "http://nanno.dip.jp/softlib/rlogin/$version/rlogin_x32.zip"
+                "url": "https://github.com/kmiya-culti/RLogin/files/$matchX86url/rlogin_x32.zip"
             },
             "64bit": {
-                "url": "http://nanno.dip.jp/softlib/rlogin/$version/rlogin_x64.zip"
+                "url": "https://github.com/kmiya-culti/RLogin/files/$matchX64url/rlogin_x64.zip"
             }
         }
     }
