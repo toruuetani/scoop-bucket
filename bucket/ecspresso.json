@@ -11,7 +11,7 @@
     },
     "bin": [
         [
-            "ecspresso",
+            "ecspresso.exe",
             "ecspresso"
         ]
     ],
