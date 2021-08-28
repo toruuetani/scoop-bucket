@@ -11,5 +11,5 @@ services:
       - ./run.sh:/run.sh
     environment:
       GIT_USERNAME: "toruuetani"
-      GIT_EMAIL: "toru.uetani+github@gmail.com.com"
+      GIT_EMAIL: "toruuetani@gmail.com"
       BUCKET: "toruuetani/scoop-bucket"
