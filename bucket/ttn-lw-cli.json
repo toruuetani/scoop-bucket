@@ -1,18 +1,18 @@
 {
-    "version": "3.17.2",
+    "version": "3.18.0",
     "description": "ttn-lw-cli",
     "homepage": "https://github.com/TheThingsNetwork/lorawan-stack/",
     "license": " Apache-2.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/TheThingsNetwork/lorawan-stack/releases/download/v3.17.2/lorawan-stack-cli_3.17.2_windows_386.zip",
-            "hash": "e66b1022aefbdf9280fd72f3c95418a3b921eb5c71c8bcb62b81409a8bd6813e",
-            "extract_dir": "lorawan-stack-cli_3.17.2_windows_386"
+            "url": "https://github.com/TheThingsNetwork/lorawan-stack/releases/download/v3.18.0/lorawan-stack-cli_3.18.0_windows_386.zip",
+            "hash": "b8aa8d385dc393e3d18da0b7c2eb0690fcff9264684492289d067d03ca6beb9e",
+            "extract_dir": "lorawan-stack-cli_3.18.0_windows_386"
         },
         "64bit": {
-            "url": "https://github.com/TheThingsNetwork/lorawan-stack/releases/download/v3.17.2/lorawan-stack-cli_3.17.2_windows_amd64.zip",
-            "hash": "faeb5d9ef9029e57ca634dd6060a0042ffc9e76bb4072d39fa6cc6da62d3f850",
-            "extract_dir": "lorawan-stack-cli_3.17.2_windows_amd64"
+            "url": "https://github.com/TheThingsNetwork/lorawan-stack/releases/download/v3.18.0/lorawan-stack-cli_3.18.0_windows_amd64.zip",
+            "hash": "cd45f14e8d5a5d589cd9b3f5247d053015082e19fc3e25efc54ceb128cec1a1c",
+            "extract_dir": "lorawan-stack-cli_3.18.0_windows_amd64"
         }
     },
     "bin": "ttn-lw-cli.exe",
