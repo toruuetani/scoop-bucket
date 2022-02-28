@@ -7,5 +7,5 @@ see https://scoop.sh/.
 Name `mybucket` is able to modify as you like.
 
 ```
-scoop bucket add mybucket https://github.com/toruuetani/scoop-bucket.git
+scoop bucket add mybucket https://github.com/Ryoden/scoop-bucket.git
 ```
