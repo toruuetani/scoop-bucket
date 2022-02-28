@@ -10,6 +10,6 @@ services:
       - ./.ssh:/root/.ssh
       - ./run.sh:/run.sh
     environment:
-      GIT_USERNAME: "toruuetani"
-      GIT_EMAIL: "toruuetani@gmail.com"
-      BUCKET: "toruuetani/scoop-bucket"
+      GIT_USERNAME: "tooruuetani"
+      GIT_EMAIL: "tooruuetani@mgw.ryoden.co.jp"
+      BUCKET: "Ryoden/scoop-bucket"
