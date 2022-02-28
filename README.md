@@ -36,3 +36,12 @@ scoop install git
 scoop install rlogin
 scoop install ttn-lw-cli
 ```
+
+## アプリのアップデート
+定期的に以下のコマンドを実行してください。
+
+```
+scoop update *
+```
+
+対象のアプリが起動しているとアップデートできないため、対象アプリは終了しておいてください。
