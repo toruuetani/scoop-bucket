@@ -11,5 +11,5 @@ services:
       - ./run.sh:/run.sh
     environment:
       GIT_USERNAME: "tooruuetani"
-      GIT_EMAIL: "tooruuetani@mgw.ryoden.co.jp"
+      GIT_EMAIL: "tooru.uetani@mgw.ryoden.co.jp"
       BUCKET: "Ryoden/scoop-bucket"
