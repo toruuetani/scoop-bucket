@@ -1,16 +1,16 @@
 {
-    "version": "1.1.2",
+    "version": "1.1.1",
     "description": "AWS MFA Refresher",
     "homepage": "https://github.com/future-architect/awsmfa",
     "license": "https://github.com/future-architect/awsmfa/blob/master/LICENSE",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/future-architect/awsmfa/releases/download/v1.1.2/awsmfa_Windows_i386.zip",
-            "hash": "06da543a3d71b50415778cc604e1ebe203964b2d3fad136e60094248637629c6"
+            "url": "https://github.com/future-architect/awsmfa/releases/download/v1.1.1/awsmfa_Windows_i386.zip",
+            "hash": "3946210612e9180986f1233805d2957fee3262b2d5ce05b8e32f4b20fde9b229"
         },
         "64bit": {
-            "url": "https://github.com/future-architect/awsmfa/releases/download/v1.1.2/awsmfa_Windows_x86_64.zip",
-            "hash": "ed9d6d3d154cd5c68ef0b4e63642948db2166bb52b58b777983a6060e52481c1"
+            "url": "https://github.com/future-architect/awsmfa/releases/download/v1.1.1/awsmfa_Windows_x86_64.zip",
+            "hash": "33091fcf5b3309356e4123af3b68ee767eca76b49832135a766d5f357f67ce75"
         }
     },
     "checkver": "github",
