@@ -1,0 +1,28 @@
+{
+    "version": "0.13.7",
+    "description": "Idempotent schema management for MySQL, PostgreSQL, and more",
+    "homepage": "https://github.com/k0kubun/sqldef/",
+    "license": "https://github.com/k0kubun/sqldef/blob/master/LICENSE",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/k0kubun/sqldef/releases/download/v0.13.7/sqlite3def_windows_386.zip",
+            "hash": "e622b897b04e1f6d8076cdbd5b1d5f36468ca14a14c1c3c75d8365acb6305b68"
+        },
+        "64bit": {
+            "url": "https://github.com/k0kubun/sqldef/releases/download/v0.13.7/sqlite3def_windows_amd64.zip",
+            "hash": "bd35f5d3538164c78f008792fdbd6612d46790860721b61af3aca850c3a2c104"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/k0kubun/sqldef/releases/download/v$version/sqlite3def_windows_386.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/k0kubun/sqldef/releases/download/v$version/sqlite3def_windows_amd64.zip"
+            }
+        }
+    },
+    "bin": "sqldef.exe"
+}
