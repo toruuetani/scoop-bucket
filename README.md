@@ -1,4 +1,5 @@
 # Scoop-Bucket for Ryoden developers
+
 see https://scoop.sh/.
 
 ## Getting Started
@@ -13,6 +14,7 @@ set-executionpolicy remotesigned -scope currentuser
 ```
 
 ### Extra Bucket 追加
+
 GUI アプリが登録されている bucket を追加します。
 
 ```
@@ -20,6 +22,7 @@ scoop bucket add extras
 ```
 
 ### Bucket for RYODEN 追加
+
 RYODEN 向けアプリが登録されている bucket を追加します。
 
 ```
@@ -27,6 +30,7 @@ scoop bucket add ryoden https://github.com/Ryoden/scoop-bucket.git
 ```
 
 ### アプリのインストール
+
 アプリは `scoop install [appname]` でインストールできます。
 最低限以下のアプリはインストールするようにしてください。
 
@@ -38,6 +42,7 @@ scoop install ttn-lw-cli
 ```
 
 ## アプリのアップデート
+
 定期的に以下のコマンドを実行してください。
 
 ```
@@ -45,3 +50,14 @@ scoop update *
 ```
 
 対象のアプリが起動しているとアップデートできないため、対象アプリは終了しておいてください。
+
+## アプリの定義追加方法
+
+GitHub にあるツール前提。
+
+- `bucket.template.json` をコピーして `bucket/[ツールの名前].json` に保存する
+- ファイル内にある `FIXME` を実際の値に置換する
+  - `FIXME_DOWNLOAD_x86_URL` および `FIXME_DOWNLOAD_x64_URL` はバージョン部分を `$version` に置き換える
+  - 実際が `https://example.com/releases/v0.13.7/hoge.zip` だったら `https://example.com/releases/v$version/hoge.zip`
+- pwsh を起動して、 `.\bin\checkver.ps1 -Update .\bucket\[ツールの名前].json` を実行
+- リポジトリにコミットする

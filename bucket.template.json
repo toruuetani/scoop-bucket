@@ -1,0 +1,28 @@
+{
+  "version": "FIXME_VERSION",
+  "description": "FIXME_DESCRIPTION",
+  "homepage": "FIXME_HOMEPAGE_URL",
+  "license": "FIXME_LICENSE_URL",
+  "architecture": {
+    "32bit": {
+      "url": "FIXME_DOWNLOAD_x86_URL",
+      "hash": "DUMMY"
+    },
+    "64bit": {
+      "url": "FIXME_DOWNLOAD_x64_URL",
+      "hash": "DUMMY"
+    }
+  },
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "32bit": {
+        "url": "FIXME_DOWNLOAD_x86_URL"
+      },
+      "64bit": {
+        "url": "FIXME_DOWNLOAD_x64_URL"
+      }
+    }
+  },
+  "bin": "FIXME_FILENAME"
+}
