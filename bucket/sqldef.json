@@ -5,24 +5,25 @@
     "license": "https://github.com/k0kubun/sqldef/blob/master/LICENSE",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/k0kubun/sqldef/releases/download/v0.13.7/sqlite3def_windows_386.zip",
-            "hash": "e622b897b04e1f6d8076cdbd5b1d5f36468ca14a14c1c3c75d8365acb6305b68"
+            "url": "https://github.com/k0kubun/sqldef/releases/download/v0.13.7/mysqldef_windows_386.zip",
+            "hash": "d13174eba5de099a888f7cf43c5825016d320f33b8f7724b486cbc8b81fac520"
         },
         "64bit": {
-            "url": "https://github.com/k0kubun/sqldef/releases/download/v0.13.7/sqlite3def_windows_amd64.zip",
-            "hash": "bd35f5d3538164c78f008792fdbd6612d46790860721b61af3aca850c3a2c104"
+            "url": "https://github.com/k0kubun/sqldef/releases/download/v0.13.7/mysqldef_windows_amd64.zip",
+            "hash": "1676d0c6bd1d5762a6c2dc31c06274847a015b4656d9f910647a276b3eed371d"
         }
     },
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/k0kubun/sqldef/releases/download/v$version/sqlite3def_windows_386.zip"
+                "url": "https://github.com/k0kubun/sqldef/releases/download/v$version/mysqldef_windows_386.zip"
             },
             "64bit": {
-                "url": "https://github.com/k0kubun/sqldef/releases/download/v$version/sqlite3def_windows_amd64.zip"
+                "url": "https://github.com/k0kubun/sqldef/releases/download/v$version/mysqldef_windows_amd64.zip"
             }
         }
     },
-    "bin": "sqldef.exe"
+    "bin": "mysqldef.exe",
+    "pre_install": "Rename-Item $original_dir\\mysqldef $original_dir\\mysqldef.exe"
 }
