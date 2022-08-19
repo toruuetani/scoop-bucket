@@ -24,5 +24,6 @@
             }
         }
     },
-    "bin": "mysqldef"
+    "bin": "mysqldef.exe",
+    "pre_install": "Rename-Item $original_dir\\mysqldef $original_dir\\mysqldef.exe"
 }
