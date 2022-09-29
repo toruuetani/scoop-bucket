@@ -1,16 +1,16 @@
 {
-    "version": "0.13.9",
+    "version": "0.13.11",
     "description": "Idempotent schema management for MySQL, PostgreSQL, and more",
     "homepage": "https://github.com/k0kubun/sqldef/",
     "license": "https://github.com/k0kubun/sqldef/blob/master/LICENSE",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/k0kubun/sqldef/releases/download/v0.13.9/mysqldef_windows_386.zip",
-            "hash": "667937e5dc45633618d632a6c34eb306eeab50a0816ed10eab6bb6030226f664"
+            "url": "https://github.com/k0kubun/sqldef/releases/download/v0.13.11/mysqldef_windows_386.zip",
+            "hash": "3c3133682d90890d501eeaf9f75270815a142d33bafd3d044cd329da6e4380a5"
         },
         "64bit": {
-            "url": "https://github.com/k0kubun/sqldef/releases/download/v0.13.9/mysqldef_windows_amd64.zip",
-            "hash": "2ea7040f3f22f6bc3ebc8bdb0ce873ce047fb66b7e658be479ca6c1d1dd22032"
+            "url": "https://github.com/k0kubun/sqldef/releases/download/v0.13.11/mysqldef_windows_amd64.zip",
+            "hash": "1a4102762cfd220915c05b1fb77c4acdf9547e12c3ee0386f6a74611ac52564a"
         }
     },
     "checkver": "github",
