@@ -13,6 +13,16 @@ see https://scoop.sh/.
 set-executionpolicy remotesigned -scope currentuser
 ```
 
+※ CATO インストール済みPCでは WSS Agent は Enable にしておくこと。
+
+### Git インストール
+
+scoop は Git を前提としたツールです。以降の作業に必要なため、最初に以下のコマンドでインストールします。
+
+```
+scoop install git
+```
+
 ### Extra Bucket 追加
 
 GUI アプリが登録されている bucket を追加します。
@@ -44,6 +54,7 @@ scoop install ttn-lw-cli
 ## アプリのアップデート
 
 定期的に以下のコマンドを実行してください。
+※ powershell で実行すること。 powershell core ではない。
 
 ```
 scoop update *
