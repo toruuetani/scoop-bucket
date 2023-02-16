@@ -1,18 +1,18 @@
 {
-    "version": "1.2.0",
+    "version": "1.3.2",
     "description": "rain",
     "homepage": "https://github.com/aws-cloudformation/rain/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aws-cloudformation/rain/releases/download/v1.2.0/rain-v1.2.0_windows-amd64.zip",
-            "hash": "495e5278f1ea5665d40bbe54c31bfdd0ba478146b3cd35bf31078a485e58f8f1",
-            "extract_dir": "rain-v1.2.0_windows-amd64"
+            "url": "https://github.com/aws-cloudformation/rain/releases/download/v1.3.2/rain-v1.3.2_windows-amd64.zip",
+            "hash": "2c1c220d4b5472217faabfe10df3e97bd790027c8e8428acbddcdf1d12117413",
+            "extract_dir": "rain-v1.3.2_windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/aws-cloudformation/rain/releases/download/v1.2.0/rain-v1.2.0_windows-i386.zip",
-            "hash": "6f518d04f9376bc02129ef3bcb9dffae9efd39666639872ed409141293871ef9",
-            "extract_dir": "rain-v1.2.0_windows-i386"
+            "url": "https://github.com/aws-cloudformation/rain/releases/download/v1.3.2/rain-v1.3.2_windows-i386.zip",
+            "hash": "790683fc183689467f06ea40a53bc9ea46f6326669e462f4b6510b7f6f49996e",
+            "extract_dir": "rain-v1.3.2_windows-i386"
         }
     },
     "bin": [
