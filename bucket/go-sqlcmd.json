@@ -2,11 +2,11 @@
     "version": "1.5.0",
     "description": "go-sqlcmd",
     "homepage": "https://github.com/microsoft/go-sqlcmd/",
-    "license": "Apache-2.0",
+    "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/microsoft/go-sqlcmd/releases/download/v1.5.0/sqlcmd-v1.5.0-windows-x64.zip",
-            "hash": "2acd8dc752df7ba84e0eee4ac6a08d64da41d9c28c367db554f76e9eed44cb23"
+            "hash": "6cd1d11a463549757efd8ef6daaa3a9413ccf85950ef9a49716041fdbdedc01d"
         }
     },
     "bin": [
