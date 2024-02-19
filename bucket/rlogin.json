@@ -1,16 +1,16 @@
 {
-    "version": "2.29.0",
+    "version": "2.29.1",
     "description": "RLogin",
     "homepage": "http://nanno.dip.jp/softlib/man/rlogin/",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/kmiya-culti/RLogin/files/14003169/rlogin_x32.zip",
-            "hash": "9d868f4d697044db3cc9337e58d61f1a613c435fac7f5f16dd1a6a3b2183f2f2"
+            "url": "https://github.com/kmiya-culti/RLogin/files/14324843/rlogin_x32.zip",
+            "hash": "93af58f846bafe31e46f806ab44bc90af3c41a82b9f8e9aab54b421704e58ba6"
         },
         "64bit": {
-            "url": "https://github.com/kmiya-culti/RLogin/files/14003170/rlogin_x64.zip",
-            "hash": "34c984e3ac1e0c8fdfd334baddc01e74b2107e706bbcc0849166528587c24f5e"
+            "url": "https://github.com/kmiya-culti/RLogin/files/14324845/rlogin_x64.zip",
+            "hash": "0dbe55139417787c3aa9a1c9f12ed2b0e246662a6a2da04ff560e13e319d9adb"
         }
     },
     "bin": "RLogin.exe",
